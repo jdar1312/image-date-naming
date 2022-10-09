@@ -115,9 +115,9 @@ def get_date_modified(image_path):
 def image_date(image_path, required_key2tag):
     '''
     Extract image date using three procedures defined above (in the following order):
-    1. Get image data from image name
-    2. Get image data from exif data
-    3. Get image data from date modified
+    1. Get image date from image name
+    2. Get image date from exif data
+    3. Get image date from date modified
     If one fails, move on to next one.
     
     Arguments:
